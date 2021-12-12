@@ -1,0 +1,171 @@
+
+.bac_ground{
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+}
+.start{
+    position: absolute;
+    margin-top: 3.125rem;
+    margin-left: 2.5rem;
+    width: 2.813rem; 
+    height: 2.813rem;
+    z-index: 1;
+}
+.line{
+    position: absolute;
+    margin-top: 4.375rem;
+    margin-left: 8.75rem;
+    width: 26.875rem;
+    
+    opacity: 25.15%;
+    border-color: rgba(#F2F2F2);
+    z-index: 3;
+}
+    body {
+        margin:0;
+    }
+    ul {
+      list-style-type:none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      opacity: 60%;
+      background-color: rgba(151, 151, 151, 1);
+      position:fixed;
+
+      top: 2.5rem;
+      left: 34.063rem;
+      width:100%;
+      height: 3.75rem;
+    }
+    a{
+       float:left;
+       display: block;
+       color: rgb(230, 7, 7);
+       display: inline;
+       letter-spacing: 0.125rem;
+       text-decoration: none;
+    }
+
+   li a  {
+         display: grid;
+         margin-top: 1.344rem;
+         padding-left: 4.375rem;
+         grid-template-rows: auto auto auto;
+         grid-template-columns: auto auto auto auto;
+         grid-gap: 0rem;
+      }
+         @media screen and (max-width: 80.938rem) { 
+          ul {
+              display: block;
+              position: absolute;
+              width: auto;
+              position: relative;
+             display: grid;
+             grid-template-columns: auto auto auto auto;
+             text-align: center;
+        }
+         li a {
+            margin: 0;
+            margin-top: 0.719rem;
+         }
+    }  /* */
+    @media screen and (min-width: 80.938rem) {
+        .start{
+            position: fixed;
+        }
+        .line{
+            position: fixed;
+        }
+    }   
+    
+.travel_text{
+   @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap");
+   font-family: "Barlow", Condensed;
+    position: absolute;
+    font-style:normal;
+    font-size: 28px;
+    line-height: 34px;
+    line-height: 100%;
+    text-align: left;
+    
+    vertical-align:top;
+    letter-spacing: 4.72px;
+    word-spacing: 1px;
+    color: rgba(208, 214, 249, 1);
+    top: 225px;
+    left: 160px;
+    width: 379px;
+    height: 34px;
+    z-index: 3;
+}
+.space{
+    @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap");
+    font-family: Ballefair;
+     position: absolute;
+     font-style:normal;
+     font-size: 150px;
+     line-height: 172px;
+     line-height: 100%;
+     text-align: left;
+     vertical-align:top;
+     word-spacing: 1px;
+     color: #FFFFFF;
+     top: 186px;
+     left: 160px;
+     width: 445px;
+     height: 172px;
+    z-index: 5;
+}
+.travel{
+    @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap");
+     
+    font-family: Barlow;
+     position: absolute;
+     font-style:normal;
+     font-size: 18px;
+     line-height: 32px;
+     line-height: 148%;
+     text-align: left;
+     text-align: justify;
+     vertical-align:top;
+     word-spacing: 1px;
+     color: rgb(208, 214, 249, 1);
+
+     top: 506px;
+     left: 160px;
+
+     width: 444px;
+     height: 128px;
+    z-index: 6;
+}
+.margin_explore{
+    position: absolute;
+    padding-right: 123px;
+    padding-top: 177px;
+
+    left: 900px;
+    bottom: 35px;
+    background-color: white;
+    border-radius: 100%;
+    z-index: 7;
+}
+.explore{
+    @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap");
+    font-family: Ballefair;
+     position: relative;
+     font-style:normal;
+     font-size: 32px;
+     line-height: 37px;
+     line-height: 100%;
+     text-align: center;
+     vertical-align:top;
+     letter-spacing: 2px;;
+     word-spacing: 1px;
+     color: rgb(11, 13, 23, 1);
+     left: 63px;
+     bottom: 90px;
+     z-index: 8;
+}
+
